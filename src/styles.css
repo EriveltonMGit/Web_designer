@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Merich;
+  src: url('assets/fonts/Merich/Merich.otf');
+
+} 
+@font-face {
+  font-family: Blacky;
+  src: url('assets/fonts/Blacky/TheNextFont.ttf');
+}
+
+@font-face{
+font-family: Poppins-Light;
+  src: url('assets/fonts/popins/Poppins-Light.ttf');
+}  
+
+
+  :root{
+    --cor-bk: #1f3441;
+    --cor-textos_red:#fc0045;
+    /* --cor-textos:#16bdfe; */
+    --cor-textos:#16bdfe;
+    --header-bk: #111214;
+    --color-text: #aaa6a6;
+    --color-primary: #ff5701;
+    --color-secundary: #fffd6b;
+
+    --bkColor: #fffdf7;
+    --color-black: #212121;
+    --color-black-heavy: #000000;
+    --color-text-out: #90908e;
+  
+    --color-white: #ffffff;
+    --color-red: #e74c3c;
+    --color-green: #2ecc71;
+    --color-separate: #cccccc;
+    --color-green: #37a34b;
+
+    --color-titulo: #2f1c6a;
+    --color-textos: #6f47e7;
+    --color-roxo: #13131f;
+    --color-pinck: #fbebe2;
+    --color-blue: #e8f0fe;
+    --blue-clean:#6cc2c5;
+}
