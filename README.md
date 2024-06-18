@@ -5,7 +5,7 @@
 Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
 
 
-&nbsp;<a href="https://landingchurascaria.netlify.app/">
+&nbsp;<a href="https://calm-web-designer.netlify.app/">
 Link para o projeto 
 </a>&nbsp;
 
