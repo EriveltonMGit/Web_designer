@@ -1297,7 +1297,6 @@
     justify-content: center;
     padding: 0;
     margin-top: 10vh;
-    border: 1px solid red;
     position: relative;
 }
 
@@ -1308,7 +1307,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid red;
     position: absolute;
     top: 0px;
     padding: 1rem;
@@ -1319,7 +1317,6 @@
     font-weight: bolder;
     font-family: Blacky;
     color: var(--cor-textos);
-    border: 1px solid red;
     width: 100%;
     text-align: center;
     padding: 0.5rem;
