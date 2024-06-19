@@ -57,3 +57,16 @@ function abrirImg_1(){
       img_4.style.display = 'none'
      }
   }
+
+
+  // ANIMAÇÃO MENU
+  document.getElementById('toggleSidebar').addEventListener('click', function () {
+    document.getElementById('sidebar').classList.toggle('active');
+  });
+  document.addEventListener('click', function(event) {
+    var sidebar = document.getElementById('sidebar');
+    var toggleBtn = document.getElementById('toggleSidebar');
+    if (!sidebar.contains(event.target) && !toggleBtn.contains(event.target)) {
+      sidebar.classList.remove('active');
+    }
+  });
