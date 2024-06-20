@@ -52,18 +52,27 @@ function abrirImg_1(){
 
 
   // ANIMAÇÃO MENU
-  document.getElementById('toggleSidebar').addEventListener('click', function () {
-    document.getElementById('sidebar').classList.toggle('active');
-  });
-  document.addEventListener('click', function(event) {
+  document.getElementById('toggleSidebar').addEventListener('click', function() {
     var sidebar = document.getElementById('sidebar');
     var toggleBtn = document.getElementById('toggleSidebar');
+    sidebar.classList.toggle('active');
+    toggleBtn.classList.toggle('active');
+});
+
+document.addEventListener('click', function(event) {
+    var sidebar = document.getElementById('sidebar');
+    var toggleBtn = document.getElementById('toggleSidebar');
+    
     if (!sidebar.contains(event.target) && !toggleBtn.contains(event.target)) {
-      sidebar.classList.remove('active');
+        sidebar.classList.remove('active');
+        toggleBtn.classList.remove('active');
     }
-  });
+});
 
 
+  
+
+// ______________________________
   window.addEventListener('scroll', function () {
     let section = document.getElementById('descricao');
     let sobre = document.getElementById('descricao');
